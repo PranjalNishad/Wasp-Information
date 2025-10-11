@@ -13,8 +13,9 @@ html {
 /* Body and background */
 body {
     font-family: Arial, sans-serif;
-    background-color: #028641;
-    overflow-x: hidden;    
+    /* background-color: #028641; */
+    overflow-x: hidden;   
+    background-image: url(image/background.png); 
 }
 
 
@@ -100,13 +101,13 @@ nav a:hover {
     height: 100vh;
     width: 100vw;
     margin-top:20px;
-    background-color: #018843;  
+    /* background-color: #018843;   */
 }
 
 
 .hero h1 {
     font-size: 550px;
-    /* font-size: clamp(60px, 10vw, 150px); */
+    font-size: clamp(60px, 30vw, 550px);
     font-weight: 950;
     color: #f6ea7f;
     display: flex;
@@ -231,11 +232,12 @@ nav a:hover {
 
 
 .info-sectionTwo{
-    background-image: url(image/CUDiOB8tMqSKy2psS8VpAt.webp);
+    background-image:url(image/CUDiOB8tMqSKy2psS8VpAt.webp);
     width: 100vw;
+
     display: flex;
     flex-direction: row;
-    height: 100vh;
+
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s ease;
