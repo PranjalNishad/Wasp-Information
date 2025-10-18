@@ -347,6 +347,7 @@ nav a:hover {
 
 .site-footer{
     height: 30vh;
+    width: 100vw;
     background: linear-gradient(180deg, #026e38, #035e31);
     color: #f5f3e9;
     padding: 40px 20px 20px;
@@ -562,6 +563,7 @@ nav a:hover {
 
   footer {
     font-size: 0.85rem;
+    width: 100vw;
     padding: 1rem;
   }
 }
