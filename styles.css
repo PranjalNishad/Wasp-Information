@@ -101,7 +101,6 @@ nav a:hover {
     height: 100vh;
     width: 100vw;
     margin-top:20px;
-    /* background-color: #018843;   */
 }
 
 
@@ -125,33 +124,29 @@ nav a:hover {
 }
 
 
+
+
+.image{
+    position: absolute;
+    left: 0;
+    top: 60%;
+}
+
+
 .RightDivOne{
-    width: 50vw;
-    height: 50vw;
-    margin-left: 450px;
+    position: absolute;
+    margin-top: 50px;
+    right: 10%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 
-.image{
-    margin-top: -180px;
-}
-
-
-.LeftDivOne{
-    width: 50vw;
-    height: 50vh;
-}
-
-
 .paraone {
-    font-size: 22px;
-    margin-top: 20px;
+    font-size: 1.5em;
     max-width: 300px;
     color: rgb(230, 238, 188);
-    display: flex;        
 }
 
 
@@ -562,7 +557,7 @@ nav a:hover {
   }
 
   .site-footer{
-    width: 100vw;
+    min-width: 100vw;
   }
 
   footer {
