@@ -13,7 +13,6 @@ html {
 /* Body and background */
 body {
     font-family: Arial, sans-serif;
-    /* background-color: #028641; */
     overflow-x: hidden;   
     background-image: url(image/background.png); 
 }
