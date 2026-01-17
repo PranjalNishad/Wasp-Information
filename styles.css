@@ -23,7 +23,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     cursor: pointer;
     margin-left: 1400px;
     margin-top: 5px; 
