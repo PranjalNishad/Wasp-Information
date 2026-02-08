@@ -85,7 +85,6 @@ nav a:hover {
     margin-top:20px;
 }
 
-
 .hero h1 {
     font-size: 550px;
     font-size: clamp(60px, 30vw, 550px);
