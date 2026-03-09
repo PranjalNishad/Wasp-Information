@@ -208,10 +208,8 @@ nav a:hover {
 .info-sectionTwo {
   background-image: url(image/CUDiOB8tMqSKy2psS8VpAt.webp);
   width: 100vw;
-
   display: flex;
   flex-direction: row;
-
   opacity: 0;
   transform: translateY(50px);
   transition: all 1s ease;
@@ -373,7 +371,6 @@ nav a:hover {
   padding-top: 10px;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .info-section,
   .info-sectionTwo,
@@ -416,8 +413,6 @@ nav a:hover {
   }
 }
 
-/* ================================
-📱 MOBILE RESPONSIVENESS */
 
 /* For tablets and smaller screens (max width 768px) */
 @media (max-width: 768px) {
