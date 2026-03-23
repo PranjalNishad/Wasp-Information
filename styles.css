@@ -416,7 +416,6 @@ nav a:hover {
 
 /* For tablets and smaller screens (max width 768px) */
 @media (max-width: 768px) {
-  /* Container / wrapper */
   .container,
   .main-wrapper,
   .content-wrapper {
